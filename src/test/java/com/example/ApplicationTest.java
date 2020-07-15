@@ -26,6 +26,7 @@ public class ApplicationTest {
 
         Message message = response.getBody();
         assertThat(message.getMessage()).isEqualTo("Hello, World! fail");
+        assertThat(message.getMessage()).isEqualTo("Hello, World! fail");
     }
 
 }
